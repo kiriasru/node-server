@@ -1,0 +1,11 @@
+{
+  "name": "lista-de-tareas",
+  "version": "1.0.0",
+  "description": "Trabajo de lista de tareas ADA School",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Irias",
+  "license": "ISC"
+}
