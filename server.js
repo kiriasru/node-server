@@ -2,6 +2,7 @@ const http = require('http');
 const host = 'localhost';
 const port = 8080;
 
+
 const tasks = [
     { id: 1, description: 'Estudiar HTML y CSS', completed: false },
     { id: 2, description: 'Avanzar en la plataforma de ada school', completed: false },
@@ -17,10 +18,10 @@ const server = http.createServer((req, res) => {
         res.end(JSON.stringify(tasks));
     } else {
         res.statusCode = 404;
-        res.end('404 Not Found');
+        res.end('No encontrado');
     }
 });
 
 server.listen(port, host, () => {
-    console.log(`Server is running at http://${host}:${port}`);
+    console.log(`El servidor corre en http://${host}:${port}`);
 });
