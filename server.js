@@ -3,7 +3,7 @@ const host = 'localhost';
 const port = 8080;
 
 
-const tasks = [
+const tareas = [
     { id: 1, description: 'Estudiar HTML y CSS', completed: false },
     { id: 2, description: 'Avanzar en la plataforma de ada school', completed: false },
     { id: 3, description: 'Terminar los entregables pendientes', completed: false },
