@@ -12,10 +12,10 @@ const tasks = [
 ];
 
 const server = http.createServer((req, res) => {
-    if (req.method === 'GET' && req.url === '/tasks') {
+    if (req.method === 'GET' && req.url === '/tareas') {
         res.setHeader('Content-Type', 'application/json');
         res.statusCode = 200;
-        res.end(JSON.stringify(tasks));
+        res.end(JSON.stringify(tareas));
     } else {
         res.statusCode = 404;
         res.end('No encontrado');
