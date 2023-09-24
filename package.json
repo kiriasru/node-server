@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "app.js"
+    "start": "nodemon server.js"
   },
   "author": "Kevin Irias",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.0.1",
     "readline-sync": "^1.4.10"
   }
 }
